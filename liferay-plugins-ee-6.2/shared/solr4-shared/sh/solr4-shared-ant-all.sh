@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export LIFERAY_PLUGINS_DIR=${LIFERAY_PLUGINS_EE_6_2_DIR}
+export LIFERAY_BUNDLES_PORTAL_DIR=${LIFERAY_BUNDLES_PORTAL_EE_6_2_DIR}
+
+source ${LIFERAY_PLUGINS_DIR_DEV_OVERLAY}/shared/solr4-shared/sh/solr4-shared-ant-all.sh
