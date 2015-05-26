@@ -15,4 +15,11 @@ pwd
 
 rm -v -f deploy/com.liferay.portal.search.solr.jar 
 rm -v -f osgi/modules/com.liferay.portal.search.solr.jar
-rm -v -f osgi/portal/com.liferay.portal.search.elasticsearch.jar
+rm -v -f osgi/portal/com.liferay.portal.search.solr.jar
+
+# Must keep Elasticsearch because of system search engine on portlet initialization
+#  :-(
+#
+# com.liferay.portal.kernel.search.SearchEngineUtil.waitForSystemSearchEngine()
+#
+# rm -v -f osgi/portal/com.liferay.portal.search.elasticsearch.jar
