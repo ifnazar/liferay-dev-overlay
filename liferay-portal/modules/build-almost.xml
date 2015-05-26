@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE project>
+
+<project>
+	<path id="plugins.includes.path">
+		<dirset dir="addons/portlet-configuration-icon" includes="*" />
+		<dirset dir="apps/bookmarks" includes="*" />
+		<dirset dir="apps/document-library" includes="*" />
+		<dirset dir="apps/dynamic-data-lists" includes="*" />
+		<dirset dir="apps/dynamic-data-mapping" includes="*" />
+		<dirset dir="apps/item-selector" includes="*" />
+		<dirset dir="apps/journal" excludes="journal-content-asset-addon-entry" includes="*" />
+		<dirset dir="apps/journal/journal-content-asset-addon-entry" includes="*" />
+		<dirset dir="apps/search" includes="*" />
+		<dirset dir="apps/wiki" includes="*" />
+		<dirset dir="core" includes="*" />
+		<dirset dir="frontend" includes="*" />
+		<dirset dir="portal" excludes="portal-search-lucene,portal-taglib-aui-form-extension-sample" includes="*" />
+		<dirset dir="util" includes="pmd,portal-tools-sample-sql-builder,sass-compiler-jni" />
+	</path>
+</project>
