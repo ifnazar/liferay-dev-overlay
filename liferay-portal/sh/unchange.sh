@@ -11,7 +11,12 @@ git update-index --assume-unchanged portal-impl/test/unit/com/liferay/portal/sec
 git update-index --assume-unchanged modules/apps/bookmarks/bookmarks-api/.classpath
 git update-index --assume-unchanged modules/apps/bookmarks/bookmarks-test/.classpath
 git update-index --assume-unchanged modules/apps/bookmarks/bookmarks-test/ivy.xml
+git update-index --assume-unchanged modules/apps/dynamic-data-lists/dynamic-data-lists-api/.classpath
 git update-index --assume-unchanged modules/apps/dynamic-data-lists/dynamic-data-lists-test/.classpath
+git update-index --assume-unchanged modules/apps/dynamic-data-lists/dynamic-data-lists-web/.classpath
+git update-index --assume-unchanged modules/apps/item-selector/item-selector-criteria-api/.classpath
+git update-index --assume-unchanged modules/apps/journal/journal-test/.classpath
+git update-index --assume-unchanged modules/apps/wiki/wiki-api/.classpath
 git update-index --assume-unchanged modules/apps/wiki/wiki-service/.classpath
 git update-index --assume-unchanged modules/apps/wiki/wiki-test/.classpath
 git update-index --assume-unchanged modules/apps/wiki/wiki-web/.classpath
