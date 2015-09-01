@@ -14,3 +14,5 @@ cp -r   ${SOLR_DIR}/server/solr/configsets/data_driven_schema_configs/conf   ${I
 # Replacements
 cp   ${RESOURCES_DIR}/schema.xml       ${INSTANCE_DIR}/conf
 cp   ${RESOURCES_DIR}/solrconfig.xml   ${INSTANCE_DIR}/conf
+
+rm -r   ${INSTANCE_DIR}/data
