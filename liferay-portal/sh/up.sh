@@ -6,6 +6,6 @@ set -o errexit ; set -o nounset
 
 ./ant-all.sh
 
-./ant-setup-eclipse.sh
+./eclipse-generate.sh
 
 ./unchange.sh
