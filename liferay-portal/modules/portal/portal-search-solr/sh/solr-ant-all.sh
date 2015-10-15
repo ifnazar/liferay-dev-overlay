@@ -4,7 +4,7 @@ set -o errexit ; set -o nounset
 
 cd ${LIFERAY_PORTAL_DIR}/modules/portal/portal-search-solr
 
-ant all
+${LIFERAY_PORTAL_DIR}/gradlew clean deploy
 
 cd ${LIFERAY_BUNDLES_PORTAL_DIR}
 
