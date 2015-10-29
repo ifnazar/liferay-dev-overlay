@@ -38,3 +38,4 @@ eclipse_generate modules/portal/portal-search-solr
 eclipse_generate modules/portal/portal-settings
 eclipse_generate modules/portal/portal-upgrade
 eclipse_generate modules/test/arquillian-extension-junit-bridge
+eclipse_generate modules/util/source-formatter
