@@ -27,7 +27,7 @@ eclipse_generate modules/apps/mobile-device-rules
 eclipse_generate modules/apps/portal-settings
 eclipse_generate modules/apps/portlet-display-template
 eclipse_generate modules/apps/wiki
-eclipse_generate modules/core/osgi-service-tracker-map
+eclipse_generate modules/core/osgi-service-tracker-collections
 eclipse_generate modules/core/registry-api
 eclipse_generate modules/portal/portal-background-task-api
 eclipse_generate modules/portal/portal-output-stream-container
