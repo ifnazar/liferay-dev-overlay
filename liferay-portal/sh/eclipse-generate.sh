@@ -8,13 +8,14 @@ function eclipse_generate()
 {
 	subdir=$1
 	cd ${LIFERAY_PORTAL_DIR}/$subdir
-	${LIFERAY_PORTAL_DIR}/gradlew eclipse
+	${LIFERAY_PORTAL_DIR}/gradlew eclipse -a
 }
 
 
 
 eclipse_generate modules/apps/application-list
 eclipse_generate modules/apps/bookmarks
+eclipse_generate modules/apps/calendar
 eclipse_generate modules/apps/configuration-admin
 eclipse_generate modules/apps/document-library
 eclipse_generate modules/apps/dynamic-data-lists
@@ -26,11 +27,14 @@ eclipse_generate modules/apps/message-boards
 eclipse_generate modules/apps/mobile-device-rules
 eclipse_generate modules/apps/portal-settings
 eclipse_generate modules/apps/portlet-display-template
+eclipse_generate modules/apps/search
+eclipse_generate modules/apps/trash
 eclipse_generate modules/apps/wiki
 eclipse_generate modules/core/osgi-service-tracker-collections
 eclipse_generate modules/core/registry-api
 eclipse_generate modules/frontend/frontend-taglib
 eclipse_generate modules/portal/portal-background-task-api
+eclipse_generate modules/portal/portal-expression
 eclipse_generate modules/portal/portal-instance-lifecyle
 eclipse_generate modules/portal/portal-metatype
 eclipse_generate modules/portal/portal-output-stream-container
