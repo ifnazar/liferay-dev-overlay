@@ -20,6 +20,7 @@ eclipse_generate modules/apps/configuration-admin
 eclipse_generate modules/apps/document-library
 eclipse_generate modules/apps/dynamic-data-lists
 eclipse_generate modules/apps/dynamic-data-mapping
+eclipse_generate modules/apps/dynamic-data-mapping/dynamic-data-mapping-form-evaluator
 eclipse_generate modules/apps/export-import
 eclipse_generate modules/apps/item-selector
 eclipse_generate modules/apps/journal
@@ -38,6 +39,7 @@ eclipse_generate modules/portal/portal-expression
 eclipse_generate modules/portal/portal-instance-lifecyle
 eclipse_generate modules/portal/portal-metatype
 eclipse_generate modules/portal/portal-output-stream-container
+eclipse_generate modules/portal/portal-expression
 eclipse_generate modules/portal/portal-rest-extender-test
 eclipse_generate modules/portal/portal-search
 eclipse_generate modules/portal/portal-search-elasticsearch
