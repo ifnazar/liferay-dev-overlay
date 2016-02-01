@@ -29,6 +29,7 @@ eclipse_generate modules/apps/mobile-device-rules
 eclipse_generate modules/apps/portal-settings
 eclipse_generate modules/apps/portlet-display-template
 eclipse_generate modules/apps/search
+eclipse_generate modules/apps/site/site-api
 eclipse_generate modules/apps/trash
 eclipse_generate modules/apps/wiki
 eclipse_generate modules/core/osgi-service-tracker-collections
