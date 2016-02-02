@@ -20,16 +20,16 @@ eclipse_generate modules/apps/configuration-admin
 eclipse_generate modules/apps/document-library
 eclipse_generate modules/apps/dynamic-data-lists
 eclipse_generate modules/apps/dynamic-data-mapping
-eclipse_generate modules/apps/dynamic-data-mapping/dynamic-data-mapping-form-evaluator
 eclipse_generate modules/apps/export-import
 eclipse_generate modules/apps/item-selector
 eclipse_generate modules/apps/journal
 eclipse_generate modules/apps/message-boards
 eclipse_generate modules/apps/mobile-device-rules
+eclipse_generate modules/apps/portal-instances
 eclipse_generate modules/apps/portal-settings
 eclipse_generate modules/apps/portlet-display-template
 eclipse_generate modules/apps/search
-eclipse_generate modules/apps/site/site-api
+eclipse_generate modules/apps/site
 eclipse_generate modules/apps/trash
 eclipse_generate modules/apps/wiki
 eclipse_generate modules/core/osgi-service-tracker-collections
@@ -40,7 +40,6 @@ eclipse_generate modules/portal/portal-expression
 eclipse_generate modules/portal/portal-instance-lifecycle
 eclipse_generate modules/portal/portal-metatype
 eclipse_generate modules/portal/portal-output-stream-container
-eclipse_generate modules/portal/portal-expression
 eclipse_generate modules/portal/portal-rest-extender-test
 eclipse_generate modules/portal/portal-search
 eclipse_generate modules/portal/portal-search-elasticsearch
