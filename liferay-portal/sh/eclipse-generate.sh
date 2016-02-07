@@ -43,8 +43,6 @@ eclipse_generate modules/portal/portal-output-stream-container
 eclipse_generate modules/portal/portal-rest-extender-test
 eclipse_generate modules/portal/portal-settings
 eclipse_generate modules/portal/portal-upgrade
-eclipse_generate modules/portal-search/portal-search
-eclipse_generate modules/portal-search/portal-search-elasticsearch
-eclipse_generate modules/portal-search/portal-search-solr
+eclipse_generate modules/portal-search
 eclipse_generate modules/test/arquillian-extension-junit-bridge
 eclipse_generate modules/util/source-formatter
