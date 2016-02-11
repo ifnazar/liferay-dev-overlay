@@ -40,7 +40,6 @@ eclipse_generate modules/frontend/frontend-taglib
 eclipse_generate modules/portal/portal-background-task-api
 eclipse_generate modules/portal/portal-expression
 eclipse_generate modules/portal/portal-instance-lifecycle
-eclipse_generate modules/portal/portal-metatype
 eclipse_generate modules/portal/portal-output-stream-container
 eclipse_generate modules/portal/portal-rest-extender-test
 eclipse_generate modules/portal/portal-upgrade
