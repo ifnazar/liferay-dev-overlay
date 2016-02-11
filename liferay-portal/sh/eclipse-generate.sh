@@ -21,6 +21,7 @@ eclipse_generate modules/apps/document-library
 eclipse_generate modules/apps/dynamic-data-lists
 eclipse_generate modules/apps/dynamic-data-mapping
 eclipse_generate modules/apps/export-import
+eclipse_generate modules/apps/flags
 eclipse_generate modules/apps/item-selector
 eclipse_generate modules/apps/journal
 eclipse_generate modules/apps/message-boards
@@ -28,6 +29,7 @@ eclipse_generate modules/apps/mobile-device-rules
 eclipse_generate modules/apps/portal-instances
 eclipse_generate modules/apps/portal-settings
 eclipse_generate modules/apps/portlet-display-template
+eclipse_generate modules/apps/product-navigation
 eclipse_generate modules/apps/search
 eclipse_generate modules/apps/site
 eclipse_generate modules/apps/trash
@@ -41,8 +43,8 @@ eclipse_generate modules/portal/portal-instance-lifecycle
 eclipse_generate modules/portal/portal-metatype
 eclipse_generate modules/portal/portal-output-stream-container
 eclipse_generate modules/portal/portal-rest-extender-test
-eclipse_generate modules/portal/portal-settings
 eclipse_generate modules/portal/portal-upgrade
+eclipse_generate modules/portal-configuration
 eclipse_generate modules/portal-search
 eclipse_generate modules/test/arquillian-extension-junit-bridge
 eclipse_generate modules/util/source-formatter
