@@ -28,6 +28,7 @@ eclipse_generate modules/apps/platform/frontend/frontend-taglib
 eclipse_generate modules/apps/platform/mobile-device-rules
 eclipse_generate modules/apps/platform/osgi-service-tracker-collections
 eclipse_generate modules/apps/platform/portal-background-task/portal-background-task-api
+eclipse_generate modules/apps/platform/portal-background-task/portal-background-task-service
 eclipse_generate modules/apps/platform/portal-configuration
 eclipse_generate modules/apps/platform/portal-instances
 eclipse_generate modules/apps/platform/portal-remote/portal-remote-rest-extender-test
