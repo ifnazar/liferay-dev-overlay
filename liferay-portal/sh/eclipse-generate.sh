@@ -37,6 +37,7 @@ eclipse_generate modules/apps/platform/portal-settings
 eclipse_generate modules/apps/platform/portal/portal-instance-lifecycle
 eclipse_generate modules/apps/platform/portal/portal-output-stream-container
 eclipse_generate modules/apps/platform/portal/portal-upgrade
+eclipse_generate modules/apps/platform/xstream/xstream-configurator-api
 eclipse_generate modules/apps/web-experience-management/application-list
 eclipse_generate modules/apps/web-experience-management/asset/asset-publisher-layout-prototype
 eclipse_generate modules/apps/web-experience-management/asset/asset-publisher-web
