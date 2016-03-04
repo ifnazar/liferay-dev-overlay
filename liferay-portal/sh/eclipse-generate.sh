@@ -31,9 +31,7 @@ eclipse_generate modules/apps/platform/portal-background-task/portal-background-
 eclipse_generate modules/apps/platform/portal-background-task/portal-background-task-service
 eclipse_generate modules/apps/platform/portal-configuration
 eclipse_generate modules/apps/platform/portal-instances
-eclipse_generate modules/apps/platform/portal-remote/portal-remote-rest-extender-test
 eclipse_generate modules/apps/platform/portal-search
-eclipse_generate modules/apps/platform/portal-settings
 eclipse_generate modules/apps/platform/portal/portal-instance-lifecycle
 eclipse_generate modules/apps/platform/portal/portal-output-stream-container
 eclipse_generate modules/apps/platform/portal/portal-upgrade
