@@ -2,7 +2,7 @@
 
 set -o errexit ; set -o nounset
 
-RESOURCES_DIR=${LIFERAY_PORTAL_DIR}/modules/portal/portal-search-solr/src/main/resources/META-INF/resources
+RESOURCES_DIR=${LIFERAY_PORTAL_DIR}/modules/apps/foundation/portal-search/portal-search-solr/src/main/resources/META-INF/resources
 SOLR_DIR=${LIFERAY_BUNDLES_PORTAL_DIR}/solr-server/solr-5.2.1
 SERVER_SOLR_DIR=${SOLR_DIR}/server/solr
 LIFERAY_DIR=${SOLR_DIR}/liferay
