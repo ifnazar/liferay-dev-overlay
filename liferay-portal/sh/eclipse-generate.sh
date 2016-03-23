@@ -12,7 +12,6 @@ function eclipse_generate()
 	${LIFERAY_PORTAL_DIR}/gradlew eclipse -a
 }
 
-
 eclipse_generate modules/apps/collaboration/bookmarks
 eclipse_generate modules/apps/collaboration/document-library
 eclipse_generate modules/apps/collaboration/flags
@@ -31,8 +30,10 @@ eclipse_generate modules/apps/foundation/portal-background-task/portal-backgroun
 eclipse_generate modules/apps/foundation/portal-configuration
 eclipse_generate modules/apps/foundation/portal-instances
 eclipse_generate modules/apps/foundation/portal-search
+eclipse_generate modules/apps/foundation/portal/portal-dao-orm-custom-sql
 eclipse_generate modules/apps/foundation/portal/portal-instance-lifecycle
 eclipse_generate modules/apps/foundation/portal/portal-output-stream-container
+eclipse_generate modules/apps/foundation/portal/portal-spring-extender
 eclipse_generate modules/apps/foundation/portal/portal-upgrade
 eclipse_generate modules/apps/foundation/xstream/xstream-configurator-api
 eclipse_generate modules/apps/web-experience/application-list
@@ -42,6 +43,7 @@ eclipse_generate modules/apps/web-experience/asset/asset-taglib
 eclipse_generate modules/apps/web-experience/asset/asset-tags-navigation-web
 eclipse_generate modules/apps/web-experience/export-import
 eclipse_generate modules/apps/web-experience/journal
+eclipse_generate modules/apps/web-experience/layout/layout-item-selector-api
 eclipse_generate modules/apps/web-experience/portlet-display-template
 eclipse_generate modules/apps/web-experience/product-navigation
 eclipse_generate modules/apps/web-experience/site
