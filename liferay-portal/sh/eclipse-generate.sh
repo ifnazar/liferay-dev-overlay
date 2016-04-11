@@ -13,8 +13,10 @@ function eclipse_generate()
 }
 
 eclipse_generate modules/apps/collaboration/bookmarks
+eclipse_generate modules/apps/collaboration/document-library
 eclipse_generate modules/apps/collaboration/flags
 eclipse_generate modules/apps/collaboration/item-selector
+eclipse_generate modules/apps/collaboration/message-boards
 eclipse_generate modules/apps/collaboration/wiki
 eclipse_generate modules/apps/forms-and-workflow/calendar
 eclipse_generate modules/apps/forms-and-workflow/dynamic-data-lists
@@ -22,6 +24,7 @@ eclipse_generate modules/apps/forms-and-workflow/dynamic-data-mapping
 eclipse_generate modules/apps/foundation/configuration-admin
 eclipse_generate modules/apps/foundation/frontend-taglib
 eclipse_generate modules/apps/foundation/mobile-device-rules
+eclipse_generate modules/apps/foundation/osgi
 eclipse_generate modules/apps/foundation/petra/petra-content-util
 eclipse_generate modules/apps/foundation/petra/petra-xml-util
 eclipse_generate modules/apps/foundation/portal-background-task/portal-background-task-api
@@ -35,6 +38,7 @@ eclipse_generate modules/apps/foundation/portal/portal-output-stream-container
 eclipse_generate modules/apps/foundation/portal/portal-spring-extender
 eclipse_generate modules/apps/foundation/portal/portal-upgrade
 eclipse_generate modules/apps/foundation/xstream/xstream-configurator-api
+eclipse_generate modules/apps/portal-search-solr
 eclipse_generate modules/apps/web-experience/application-list
 eclipse_generate modules/apps/web-experience/asset/asset-publisher-layout-prototype
 eclipse_generate modules/apps/web-experience/asset/asset-publisher-web
