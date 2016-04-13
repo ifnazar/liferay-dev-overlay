@@ -25,8 +25,7 @@ eclipse_generate modules/apps/foundation/configuration-admin
 eclipse_generate modules/apps/foundation/frontend-taglib
 eclipse_generate modules/apps/foundation/mobile-device-rules
 eclipse_generate modules/apps/foundation/osgi
-eclipse_generate modules/apps/foundation/petra/petra-content-util
-eclipse_generate modules/apps/foundation/petra/petra-xml-util
+eclipse_generate modules/apps/foundation/petra/
 eclipse_generate modules/apps/foundation/portal-background-task/portal-background-task-api
 eclipse_generate modules/apps/foundation/portal-background-task/portal-background-task-service
 eclipse_generate modules/apps/foundation/portal-configuration
