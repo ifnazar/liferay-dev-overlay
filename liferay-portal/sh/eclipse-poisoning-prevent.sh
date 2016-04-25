@@ -2,6 +2,8 @@
 
 set -o errexit ; set -o nounset
 
+figlet -f mini Eclipse Poisoning Prevent || true
+
 cd ${LIFERAY_PORTAL_DIR}
 
 if [ -e "portal-impl/test-classes/unit/com/liferay/portal/security/xml/dependencies/xml-bomb-billion-laughs.xml" ]

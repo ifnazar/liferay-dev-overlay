@@ -7,8 +7,13 @@ set -o errexit ; set -o nounset
 function eclipse_generate()
 {
 	subdir=$1
-	echo $subdir
+
+	figlet -f digital $subdir || true
+
 	cd ${LIFERAY_PORTAL_DIR}/$subdir
+	pwd
+	rm settings.gradle || true
+	rm ../settings.gradle || true
 	${LIFERAY_PORTAL_DIR}/gradlew eclipse -a
 }
 
