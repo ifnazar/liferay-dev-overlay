@@ -51,6 +51,7 @@ eclipse_generate modules/apps/web-experience/asset/asset-tags-navigation-web
 eclipse_generate modules/apps/web-experience/export-import
 eclipse_generate modules/apps/web-experience/journal
 eclipse_generate modules/apps/web-experience/layout/layout-item-selector-api
+eclipse_generate modules/apps/web-experience/layout/layout-item-selector-web
 eclipse_generate modules/apps/web-experience/portlet-display-template
 eclipse_generate modules/apps/web-experience/product-navigation
 eclipse_generate modules/apps/web-experience/site
