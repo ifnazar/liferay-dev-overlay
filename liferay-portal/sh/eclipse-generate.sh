@@ -56,6 +56,7 @@ eclipse_generate modules/apps/web-experience/portlet-display-template
 eclipse_generate modules/apps/web-experience/product-navigation
 eclipse_generate modules/apps/web-experience/site
 eclipse_generate modules/apps/web-experience/trash
+eclipse_generate modules/core/osgi-service-tracker-collections
 eclipse_generate modules/core/registry-api
 eclipse_generate modules/test/arquillian-extension-junit-bridge
 eclipse_generate modules/util/source-formatter
