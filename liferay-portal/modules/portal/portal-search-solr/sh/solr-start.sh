@@ -2,7 +2,7 @@
 
 set -o errexit ; set -o nounset
 
-SOLR_DIR=${LIFERAY_BUNDLES_PORTAL_DIR}/solr-server/solr-5.2.1/
+SOLR_DIR=${LIFERAY_BUNDLES_PORTAL_DIR}/solr-server/solr-5.5.1/
 
 #
 # Experiment with aggressively low values for faster Search TCK integration tests
@@ -13,4 +13,4 @@ AUTOSOFTCOMMIT_MAXTIME=1000
 
 cd ${SOLR_DIR}
 
-bin/solr start -Dsolr.autoSoftCommit.maxTime=${AUTOSOFTCOMMIT_MAXTIME} -V -s ${SOLR_DIR}/liferay -f
+bin/solr start -Dsolr.autoSoftCommit.maxTime=${AUTOSOFTCOMMIT_MAXTIME} -V -f
