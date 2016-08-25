@@ -11,6 +11,7 @@ cd ${LIFERAY_PORTAL_DIR}
 git update-index --assume-unchanged .classpath
 git update-index --assume-unchanged portal-impl/test/unit/com/liferay/portal/security/xml/dependencies/xml-bomb-billion-laughs.xml
 git update-index --assume-unchanged portal-impl/test/unit/com/liferay/portal/security/xml/dependencies/xml-bomb-quadratic-blowup.xml
+git update-index --assume-unchanged portal-test-integration/src/com/liferay/portal/test/rule/LogAssertionHandler.java
 
 cd ${LIFERAY_PLUGINS_DIR}
 
