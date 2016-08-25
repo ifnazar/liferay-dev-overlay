@@ -2,7 +2,7 @@
 
 set -o errexit ; set -o nounset
 
-
+source fn-gradlew_eclipse.sh
 
 function eclipse_generate()
 {
@@ -13,13 +13,7 @@ function eclipse_generate()
 	cd ${LIFERAY_PORTAL_DIR}/$subdir
 	pwd
 
-	mv settings.gradle settings.gradle.ORIGINAL || true
-	mv ../settings.gradle ../settings.gradle.ORIGINAL || true
-
-	${LIFERAY_PORTAL_DIR}/gradlew eclipse -a
-
-	mv settings.gradle.ORIGINAL settings.gradle || true
-	mv ../settings.gradle.ORIGINAL ../settings.gradle || true	
+	gradlew_eclipse
 }
 
 eclipse_generate modules/apps/collaboration/bookmarks
@@ -46,6 +40,8 @@ eclipse_generate modules/apps/foundation/portal/portal-instance-lifecycle
 eclipse_generate modules/apps/foundation/portal/portal-output-stream-container
 eclipse_generate modules/apps/foundation/portal/portal-spring-extender
 eclipse_generate modules/apps/foundation/portal/portal-upgrade
+eclipse_generate modules/apps/foundation/portal/portal-verify-extender
+eclipse_generate modules/apps/foundation/server/server-admin-web
 eclipse_generate modules/apps/foundation/xstream/xstream-configurator-api
 eclipse_generate modules/apps/portal-search-solr
 eclipse_generate modules/apps/web-experience/application-list
