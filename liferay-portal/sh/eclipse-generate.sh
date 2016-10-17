@@ -16,6 +16,9 @@ function eclipse_generate()
 	gradlew_eclipse
 }
 
+eclipse_generate modules/apps/collaboration/blogs/blogs-service
+eclipse_generate modules/apps/collaboration/blogs/blogs-test
+eclipse_generate modules/apps/collaboration/blogs/blogs-test-util
 eclipse_generate modules/apps/collaboration/bookmarks
 eclipse_generate modules/apps/collaboration/document-library
 eclipse_generate modules/apps/collaboration/flags
@@ -26,6 +29,7 @@ eclipse_generate modules/apps/forms-and-workflow/calendar
 eclipse_generate modules/apps/forms-and-workflow/dynamic-data-lists
 eclipse_generate modules/apps/forms-and-workflow/dynamic-data-mapping
 eclipse_generate modules/apps/foundation/configuration-admin
+eclipse_generate modules/apps/foundation/friendly-url/friendly-url-api
 eclipse_generate modules/apps/foundation/frontend-taglib
 eclipse_generate modules/apps/foundation/mobile-device-rules
 eclipse_generate modules/apps/foundation/petra/petra-collection
@@ -51,6 +55,7 @@ eclipse_generate modules/apps/web-experience/asset/asset-taglib
 eclipse_generate modules/apps/web-experience/asset/asset-tags-navigation-web
 eclipse_generate modules/apps/web-experience/export-import
 eclipse_generate modules/apps/web-experience/journal
+eclipse_generate modules/apps/web-experience/layout/layout-api
 eclipse_generate modules/apps/web-experience/layout/layout-item-selector-api
 eclipse_generate modules/apps/web-experience/layout/layout-item-selector-web
 eclipse_generate modules/apps/web-experience/portlet-display-template
