@@ -3,6 +3,8 @@
 set -o errexit ; set -o nounset
 
 SOLR_DIR=${LIFERAY_BUNDLES_PORTAL_DIR}/solr-server/solr-5.5.1
+SOLR_HOME=
+
 CORE_NAME=liferay
 CORE_DIR=${SOLR_DIR}/server/solr/${CORE_NAME}
 CONF_DIR=${CORE_DIR}/conf
