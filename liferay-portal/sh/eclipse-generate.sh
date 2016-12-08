@@ -16,7 +16,26 @@ function eclipse_generate()
 	gradlew_eclipse
 }
 
-eclipse_generate modules/apps/collaboration/blogs/blogs-service
+function eclipse_generate_with_compat()
+{
+	subdir=$1
+
+	eclipse_generate $subdir
+
+	cd ${LIFERAY_PORTAL_DIR}/$subdir
+
+	KERNEL_COMPAT_JAR="/portal-master/tools/sdk/dist/com.liferay.portal.kernel.compat-1.0.0.jar"
+
+	SED="s|<classpath>|<classpath><classpathentry kind=\"lib\" path=\"${KERNEL_COMPAT_JAR}\"/>|g"
+
+	sed -e "$SED" -i '' .classpath
+}
+
+eclipse_generate modules/apps/foundation/portal-search
+eclipse_generate modules/apps/portal-search-solr
+
+eclipse_generate_with_compat modules/apps/collaboration/blogs/blogs-service
+
 eclipse_generate modules/apps/collaboration/blogs/blogs-test
 eclipse_generate modules/apps/collaboration/blogs/blogs-test-util
 eclipse_generate modules/apps/collaboration/bookmarks/bookmarks-test
@@ -36,14 +55,14 @@ eclipse_generate modules/apps/foundation/portal-background-task/portal-backgroun
 eclipse_generate modules/apps/foundation/portal-background-task/portal-background-task-service
 eclipse_generate modules/apps/foundation/portal-configuration
 eclipse_generate modules/apps/foundation/portal-instances
-eclipse_generate modules/apps/foundation/portal-search
 eclipse_generate modules/apps/foundation/portal/portal-instance-lifecycle
 eclipse_generate modules/apps/foundation/portal/portal-output-stream-container
 eclipse_generate modules/apps/foundation/portal/portal-spring-extender
 eclipse_generate modules/apps/foundation/portal/portal-upgrade
 eclipse_generate modules/apps/foundation/portal/portal-verify-extender
+eclipse_generate modules/apps/foundation/users-admin/users-admin-impl
+eclipse_generate modules/apps/foundation/users-admin/users-admin-test
 eclipse_generate modules/apps/foundation/xstream/xstream-configurator-api
-eclipse_generate modules/apps/portal-search-solr
 eclipse_generate modules/apps/web-experience/application-list/application-list-api
 eclipse_generate modules/apps/web-experience/asset/asset-publisher-layout-prototype
 eclipse_generate modules/apps/web-experience/asset/asset-publisher-web
