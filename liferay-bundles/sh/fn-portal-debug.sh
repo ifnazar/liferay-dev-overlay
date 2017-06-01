@@ -10,8 +10,9 @@ function property_set()
 function tomcat_debug()
 {
 	LPORTAL_DATABASE=$1
+	TOMCAT_DIR=$2
 
-	property_set    jdbc.default.url     jdbc:mysql://localhost/${LPORTAL_DATABASE}?useUnicode=true\\\&characterEncoding=UTF-8\\\&useFastDateParsing=false     ${LIFERAY_BUNDLES_PORTAL_TOMCAT_DIR}/webapps/ROOT/WEB-INF/classes/portal-ext.properties
+	property_set    jdbc.default.url     jdbc:mysql://localhost/${LPORTAL_DATABASE}?useUnicode=true\\\&characterEncoding=UTF-8\\\&useFastDateParsing=false     ${TOMCAT_DIR}/webapps/ROOT/WEB-INF/classes/portal-ext.properties
 
-	${LIFERAY_BUNDLES_PORTAL_TOMCAT_DIR}/bin/catalina.sh jpda run
+	${TOMCAT_DIR}/bin/catalina.sh jpda run
 }
