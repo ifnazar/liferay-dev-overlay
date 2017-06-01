@@ -13,6 +13,7 @@ git update-index --assume-unchanged portal-impl/test/unit/com/liferay/portal/sec
 git update-index --assume-unchanged portal-impl/test/unit/com/liferay/portal/security/xml/dependencies/xml-bomb-quadratic-blowup.xml
 git update-index --assume-unchanged portal-test-integration/src/com/liferay/portal/test/rule/LogAssertionHandler.java
 
+git ls-files --deleted | grep settings.gradle | xargs git update-index --assume-unchanged
 git ls-files --deleted | grep .lfrbuild-portal | xargs git update-index --assume-unchanged
 
 cd ${LIFERAY_PLUGINS_DIR}
