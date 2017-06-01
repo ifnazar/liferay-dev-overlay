@@ -2,7 +2,7 @@
 
 set -o errexit ; set -o nounset
 
-source fn-gradlew_eclipse.sh
+source fn-gradlew.sh
 
 function eclipse_generate()
 {
