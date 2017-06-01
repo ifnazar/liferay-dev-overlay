@@ -15,5 +15,7 @@ git remote show ${REMOTE_NAME}
 echo =======================================================================
 git status
 echo =======================================================================
+git push origin refs/remotes/${REMOTE_NAME}/${BRANCH_NAME}:refs/heads/${BRANCH_NAME}
+echo =======================================================================
 git pull --rebase ${REMOTE_NAME} ${BRANCH_NAME}
 echo =======================================================================
