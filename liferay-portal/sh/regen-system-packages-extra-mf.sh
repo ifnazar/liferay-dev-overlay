@@ -7,4 +7,4 @@ set -o errexit ; set -o nounset
 
 cd ${LIFERAY_PORTAL_DIR}/modules/core/portal-bootstrap
 rm system.packages.extra.mf || true
-gw clean deploy install
+${LIFERAY_PORTAL_DIR}/gradlew clean deploy install
