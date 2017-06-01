@@ -39,6 +39,10 @@ cd -
 function remove_node_modules()
 {
 rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/collaboration/wiki/wiki-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/frontend-editor/frontend-editor-alloyeditor-accessibility-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/frontend-js/frontend-js-metal-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/hello-soy/hello-soy-web/node_modules/
+rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-theme-1975-london/frontend-theme-1975-london/node_modules/
 rm -rf ${LIFERAY_PORTAL_DIR}/modules/apps/frontend-theme-porygon/frontend-theme-porygon/node_modules/
 }
 #
@@ -63,19 +67,27 @@ cd -
 #
 
 
-################
-
-
-#### modify_build_xml
-
-#### remove_node_modules
-
+#
+function skip_modules_lfrbuildportal()
+{
 remove_lfrbuildportal modules/apps/collaboration/wiki/wiki-web
 remove_lfrbuildportal modules/apps/frontend-theme-porygon/frontend-theme-porygon
 
 remove_lfrbuildportal modules/apps/frontend-theme-1975-london/frontend-theme-1975-london
 remove_lfrbuildportal modules/apps/frontend-theme-fjord/frontend-theme-fjord
 remove_lfrbuildportal modules/apps/frontend-theme-westeros-bank/frontend-theme-westeros-bank
+}
+#
+
+
+################
+
+
+#### modify_build_xml
+
+remove_node_modules
+
+#### skip_modules_lfrbuildportal
 
 
 ./ant-all.sh
