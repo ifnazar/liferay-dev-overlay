@@ -10,6 +10,20 @@ function regradlew()
 	mv ../settings.gradle.ORIGINAL ../settings.gradle || true
 }
 
+function gradlew_clean()
+{
+	degradlew
+	${LIFERAY_PORTAL_DIR}/gradlew clean
+	regradlew
+}
+
+function gradlew_deploy()
+{
+	degradlew
+	${LIFERAY_PORTAL_DIR}/gradlew deploy
+	regradlew
+}
+
 function gradlew_eclipse()
 {
 	degradlew
