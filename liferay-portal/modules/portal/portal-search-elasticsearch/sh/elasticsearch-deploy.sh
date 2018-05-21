@@ -2,7 +2,7 @@
 
 set -o errexit ; set -o nounset
 
-cd ${LIFERAY_PORTAL_DIR}/modules/apps/foundation/portal-search/portal-search-elasticsearch
+cd ${LIFERAY_PORTAL_DIR}/modules/apps/portal-search-elasticsearch6
 
 ${LIFERAY_PORTAL_DIR}/gradlew clean deploy
 
