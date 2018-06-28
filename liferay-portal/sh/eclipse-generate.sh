@@ -51,11 +51,14 @@ eclipse_generate modules/apps/asset/asset-taglib
 eclipse_generate modules/apps/asset/asset-tags-navigation-web
 eclipse_generate modules/apps/asset/asset-test
 eclipse_generate modules/apps/asset/asset-test-util
+eclipse_generate modules/apps/blogs/blogs-api
+eclipse_generate modules/apps/blogs/blogs-service
 eclipse_generate modules/apps/blogs/blogs-test
 eclipse_generate modules/apps/blogs/blogs-test-util
 eclipse_generate modules/apps/bookmarks/bookmarks-service
 eclipse_generate modules/apps/bookmarks/bookmarks-test
 eclipse_generate modules/apps/calendar
+eclipse_generate modules/apps/changeset/changeset-api
 eclipse_generate modules/apps/comment/comment-taglib
 eclipse_generate modules/apps/configuration-admin
 eclipse_generate modules/apps/document-library
@@ -65,6 +68,7 @@ eclipse_generate modules/apps/export-import/export-import-api
 eclipse_generate modules/apps/export-import/export-import-service
 eclipse_generate modules/apps/export-import/export-import-test-util
 eclipse_generate modules/apps/flags
+eclipse_generate modules/apps/fragment/fragment-api
 eclipse_generate modules/apps/friendly-url/friendly-url-api
 eclipse_generate modules/apps/frontend-js/frontend-js-loader-modules-extender-api
 eclipse_generate modules/apps/frontend-taglib/frontend-taglib/
@@ -76,6 +80,7 @@ eclipse_generate modules/apps/journal
 eclipse_generate modules/apps/layout/layout-api
 eclipse_generate modules/apps/layout/layout-item-selector-api
 eclipse_generate modules/apps/layout/layout-item-selector-web
+eclipse_generate modules/apps/layout/layout-page-template-api
 eclipse_generate modules/apps/message-boards
 eclipse_generate modules/apps/mobile-device-rules/mobile-device-rules-api
 eclipse_generate modules/apps/petra
@@ -98,6 +103,8 @@ eclipse_generate modules/apps/rss/rss-api
 eclipse_generate modules/apps/server/server-admin-web
 eclipse_generate modules/apps/site/site-api
 eclipse_generate modules/apps/social/social-activity-test-util
+eclipse_generate modules/apps/staging/staging-api
+eclipse_generate modules/apps/static/portal-configuration/portal-configuration-persistence-api
 eclipse_generate modules/apps/subscription/subscription-api
 eclipse_generate modules/apps/trash/trash-api
 eclipse_generate modules/apps/trash/trash-service
