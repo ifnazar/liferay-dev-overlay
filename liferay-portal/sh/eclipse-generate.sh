@@ -44,6 +44,11 @@ eclipse_generate_with_compat modules/apps/blogs/blogs-service
 
 eclipse_generate modules/apps/application-list/application-list-api
 eclipse_generate modules/apps/asset/asset-api
+eclipse_generate modules/apps/asset/asset-categories-admin-web
+eclipse_generate modules/apps/asset/asset-categories-navigation-api
+eclipse_generate modules/apps/asset/asset-category-property-api
+eclipse_generate modules/apps/asset/asset-display-api
+eclipse_generate modules/apps/asset/asset-display-page-api
 eclipse_generate modules/apps/asset/asset-publisher-layout-prototype
 eclipse_generate modules/apps/asset/asset-publisher-web
 eclipse_generate modules/apps/asset/asset-service
@@ -55,10 +60,11 @@ eclipse_generate modules/apps/blogs/blogs-api
 eclipse_generate modules/apps/blogs/blogs-service
 eclipse_generate modules/apps/blogs/blogs-test
 eclipse_generate modules/apps/blogs/blogs-test-util
+eclipse_generate modules/apps/bookmarks/bookmarks-api
 eclipse_generate modules/apps/bookmarks/bookmarks-service
 eclipse_generate modules/apps/bookmarks/bookmarks-test
 eclipse_generate modules/apps/calendar
-eclipse_generate modules/apps/changeset/changeset-api
+eclipse_generate modules/apps/changeset
 eclipse_generate modules/apps/comment/comment-taglib
 eclipse_generate modules/apps/configuration-admin
 eclipse_generate modules/apps/document-library
@@ -101,9 +107,11 @@ eclipse_generate modules/apps/portlet-display-template
 eclipse_generate modules/apps/product-navigation
 eclipse_generate modules/apps/rss/rss-api
 eclipse_generate modules/apps/server/server-admin-web
+eclipse_generate modules/apps/sharing
 eclipse_generate modules/apps/site/site-api
 eclipse_generate modules/apps/social/social-activity-test-util
 eclipse_generate modules/apps/staging/staging-api
+eclipse_generate modules/apps/static/osgi/osgi-util
 eclipse_generate modules/apps/static/portal-configuration/portal-configuration-persistence-api
 eclipse_generate modules/apps/subscription/subscription-api
 eclipse_generate modules/apps/trash/trash-api
