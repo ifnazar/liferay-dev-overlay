@@ -34,13 +34,14 @@ function eclipse_generate_with_compat()
 # Search
 
 eclipse_generate modules/apps/portal-search
-eclipse_generate modules/apps/portal-search-solr
+eclipse_generate modules/apps/portal-search-elasticsearch6
+eclipse_generate modules/apps/portal-search-solr7
 
 # Compat
 
 eclipse_generate_with_compat modules/apps/blogs/blogs-service
 
-# All else
+# ci:test:search
 
 eclipse_generate modules/apps/application-list/application-list-api
 eclipse_generate modules/apps/asset/asset-api
