@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -o errexit ; set -o nounset
 
@@ -24,11 +24,11 @@ function eclipse_generate_with_compat()
 
 	cd ${LIFERAY_PORTAL_DIR}/$subdir
 
-	KERNEL_COMPAT_JAR="/portal-master/tools/sdk/dist/com.liferay.portal.kernel.compat-1.0.0.jar"
+#	KERNEL_COMPAT_JAR="/portal-master/tools/sdk/dist/com.liferay.portal.kernel.compat-1.0.0.jar"
 
-	SED="s|<classpath>|<classpath><classpathentry kind=\"lib\" path=\"${KERNEL_COMPAT_JAR}\"/>|g"
+#	SED="s|<classpath>|<classpath><classpathentry kind=\"lib\" path=\"${KERNEL_COMPAT_JAR}\"/>|g"
 
-	sed -e "$SED" -i '' .classpath
+#	sed -e "$SED" -i '' .classpath
 }
 
 # Search

@@ -1,13 +1,21 @@
 function degradlew()
 {
-	mv settings.gradle settings.gradle.ORIGINAL || true
-	mv ../settings.gradle ../settings.gradle.ORIGINAL || true
+	if [ -e "settings.gradle" ]; then
+	    mv settings.gradle settings.gradle.ORIGINAL || true
+	fi 
+	if [ -e "../settings.gradle" ]; then
+	    mv ../settings.gradle ../settings.gradle.ORIGINAL || true
+	fi 
 }
 
 function regradlew()
 {
-	mv settings.gradle.ORIGINAL settings.gradle || true
-	mv ../settings.gradle.ORIGINAL ../settings.gradle || true
+	if [ -e "settings.gradle.ORIGINAL" ]; then
+	    mv settings.gradle.ORIGINAL settings.gradle || true
+	fi 
+	if [ -e "../settings.gradle.ORIGINAL" ]; then
+	    mv ../settings.gradle.ORIGINAL ../settings.gradle || true
+	fi 
 }
 
 function gradlew_clean()
